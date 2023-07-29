@@ -43,7 +43,7 @@ apt-get install -y git && \
 cd "${GITHUB_WORKSPACE}"
 
 echo ">>> Install NPM dependencies ..."
-npm install hexo-component-inferno@^2.0.3 hexo-renderer-stylus@^2.1.0 hexo-helper-live2d live2d-widget-model-koharu hexo--wordcount --save
+npm install hexo-component-inferno@^2.0.3 hexo-renderer-stylus@^2.1.0 hexo-helper-live2d live2d-widget-model-koharu hexo-wordcount --save
 npm install
 
 echo ">>> Clean cache files ..."
