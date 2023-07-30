@@ -43,6 +43,8 @@ apt-get install -y git && \
 cd "${GITHUB_WORKSPACE}"
 
 echo ">>> Install NPM dependencies ..."
+npm uninstall hexo-generator-index --save
+npm install hexo-generator-index-pin-top --save
 npm install hexo-renderer-pug hexo-renderer-stylus hexo-wordcount hexo-helper-live2d live2d-widget-model-koharu --save
 npm install
 
