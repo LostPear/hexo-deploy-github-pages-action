@@ -43,7 +43,7 @@ apt-get install -y git && \
 cd "${GITHUB_WORKSPACE}"
 
 echo ">>> Install NPM dependencies ..."
-npm install hexo-renderer-pug hexo-renderer-stylus hexo-wordcount --save
+npm install hexo-renderer-pug hexo-renderer-stylus hexo-wordcount hexo-helper-live2d live2d-widget-model-koharu --save
 npm install
 
 echo ">>> Clean cache files ..."
