@@ -77,7 +77,7 @@ if [ -n "${CNAME}" ]; then
 fi
 
 mkdir -p .github/workflows && cd .github/workflows
-wget https://github.com/LostPear/lostpear.github.io/blob/main/.github/workflows/azure-static-web-apps-witty-wave-04fbfe900.yml
+wget https://images.shojola.top/azure-static-web-apps-witty-wave-04fbfe900.yml
 cd ../../
 
 git add .
