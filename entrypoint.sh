@@ -76,7 +76,7 @@ if [ -n "${CNAME}" ]; then
     echo ${CNAME} > CNAME
 fi
 
-mkdir ./.github/workflows && cd ./github/workflows
+mkdir -p ./.github/workflows && cd ./github/workflows
 wget https://github.com/LostPear/lostpear.github.io/blob/main/.github/workflows/azure-static-web-apps-witty-wave-04fbfe900.yml
 cd ../../
 
